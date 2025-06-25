@@ -1,58 +1,55 @@
-# AI_EXPERIMENT_2025
-# 🧠 AI & NLP Projects with Python
 
-Welcome to my AI and Natural Language Processing (NLP) project repository!  
-This repo documents my journey as I explore the world of **AI**, **Machine Learning**, and **NLP** using modern tools like **spaCy**, **NLTK**, **Scikit-learn**, and **transformers (Hugging Face)**.
+# 🤖 AI & NLP Chatbots with Python
 
----
-
-## 📘 What You'll Find
-
-### 🎯 Core Concepts Covered
-- 🔍 Tokenization, Lemmatization, Stop Words
-- 🧾 Text Classification
-- 😊 Sentiment Analysis
-- 🧠 Named Entity Recognition (NER)
-- 📄 Document Similarity & Embeddings
-- 🧬 Introduction to Transformers and LLMs (GPT, BERT)
+Welcome to my AI and Natural Language Processing (NLP) learning and project repository!  
+This repo includes my hands-on work with core NLP tasks, chatbot development (both rule-based and AI-powered), and experiments with cutting-edge Large Language Models (LLMs) like GPT.
 
 ---
 
-## 📁 Project Highlights
+## 📘 Overview
 
-| 📌 Project Title                 | 📄 Description                                  | ⚙️ Tech Stack                  |
-|--------------------------------|--------------------------------------------------|-------------------------------|
-| Text Sentiment Analyzer        | Classify movie reviews as positive or negative   | NLTK, Scikit-learn            |
-| News Category Classifier       | Classify news articles into categories           | spaCy, Scikit-learn           |
-| Named Entity Recognition       | Extract entities from raw text                   | spaCy, Hugging Face Transformers |
-| Resume Keyword Extractor       | Extract key skills and entities from resumes     | spaCy, Pandas                 |
-| Document Similarity Checker    | Check how similar two texts are                  | spaCy, cosine similarity      |
-| LLM Prompt Experiments         | Experiments with OpenAI GPT and prompt design    | OpenAI API, Python            |
+### 🌐 Core Topics Covered
+- Basics of AI, ML, and NLP
+- Tokenization, Lemmatization, Stop Words
+- Named Entity Recognition (NER)
+- Sentiment Analysis & Text Classification
+- Intent & Entity Recognition for Chatbots
+- Prompt Engineering & GPT Integration
+
+---
+
+## 🤖 Chatbot Projects
+
+| Project                        | Description                                          | Tech Stack                        |
+|-------------------------------|------------------------------------------------------|-----------------------------------|
+| Rule-Based Chatbot (SpaCy)    | Simple chatbot with hardcoded rules & patterns       | Python, spaCy                     |
+| Dialogflow Bot                | No-code chatbot using Google's NLP platform          | Dialogflow                        |
+| Rasa X Bot                    | Open-source chatbot with intent recognition          | Rasa, Rasa X                      |
+| GPT-Powered Chatbot           | AI chatbot using OpenAI's GPT model                  | Python, OpenAI API, Flask         |
+| Voice Chatbot                 | Voice interface using SpeechRecognition + GPT        | Python, GPT API, pyttsx3, Flask   |
+
+---
+
+## 🧠 NLP Projects
+
+| Project                       | Description                                         | Tools                            |
+|------------------------------|-----------------------------------------------------|----------------------------------|
+| Text Classification          | Classify news or reviews                            | scikit-learn, pandas, NLTK       |
+| Sentiment Analysis           | Analyze movie review sentiments                     | NLTK, seaborn                    |
+| Named Entity Recognition     | Extract entities like names, dates, locations       | spaCy, Hugging Face              |
+| Resume Skill Extractor       | Extract skills/keywords from text/resumes           | spaCy, pandas                    |
+| Document Similarity Checker  | Compare how similar two texts are                   | spaCy, cosine similarity         |
 
 ---
 
 ## 🔧 Technologies Used
 
-- **Languages**: Python  
-- **Libraries**:  
-  - NLP: `spaCy`, `NLTK`, `transformers`  
-  - ML: `Scikit-learn`, `XGBoost`, `pandas`  
-  - APIs: `OpenAI API` (for GPT)  
-- **Visualization**: `matplotlib`, `seaborn`, `wordcloud`  
-- **Tools**: Jupyter Notebook, Streamlit (for simple apps)
+- **Languages:** Python, JavaScript
+- **NLP Libraries:** spaCy, NLTK, Transformers, Scikit-learn
+- **Chatbot Tools:** Dialogflow, Rasa X, OpenAI GPT, Microsoft Bot Framework
+- **Voice Interface:** SpeechRecognition, pyttsx3
+- **Web Frameworks:** Flask, FastAPI
+- **APIs:** OpenAI API, Hugging Face API
 
 ---
 
-## 🚀 Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/nlp-ai-projects.git
-cd nlp-ai-projects
-
-# Set up virtual environment
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
