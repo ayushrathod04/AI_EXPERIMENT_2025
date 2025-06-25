@@ -44,7 +44,7 @@ This repo includes my hands-on work with core NLP tasks, chatbot development (bo
 
 ## 🔧 Technologies Used
 
-- **Languages:** Python, JavaScript
+- **Languages:** Python, 
 - **NLP Libraries:** spaCy, NLTK, Transformers, Scikit-learn
 - **Chatbot Tools:** Dialogflow, Rasa X, OpenAI GPT, Microsoft Bot Framework
 - **Voice Interface:** SpeechRecognition, pyttsx3
